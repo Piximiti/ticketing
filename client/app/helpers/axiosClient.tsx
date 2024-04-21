@@ -8,7 +8,7 @@ export default function axiosClient() {
   });
 
   return axios.create({
-    baseURL: "http://ingress-nginx-controller.ingress-nginx.svc.cluster.local",
+    baseURL: "http://www.digibay.pw",
     headers: headersObj,
   });
 }
