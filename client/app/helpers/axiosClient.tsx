@@ -8,7 +8,7 @@ export default function axiosClient() {
   });
 
   return axios.create({
-    baseURL: "http://www.digibay.pw",
+    baseURL: "http://www.digibay.pw/",
     headers: headersObj,
   });
 }
